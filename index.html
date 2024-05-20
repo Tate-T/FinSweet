@@ -11,9 +11,14 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Sen:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./info.html" />
   </head>
   <body>
     <header class="header-section">
@@ -70,11 +75,12 @@
         </defs>
       </svg>
       <ul class="header-list">
+
         <li class="header-item">
-          <a class="header-link" href="">Home</a>
+          <a class="header-link" href="./index.html">Home</a>
         </li>
         <li class="header-item">
-          <a class="header-link" href="">Blog</a>
+          <a class="header-link" href="./blog.html">Blog</a>
         </li>
         <li class="header-item">
           <a class="header-link" href="">About Us</a>
@@ -84,30 +90,31 @@
     </header>
 
     <main class="main-section">
-      <section class="hero-sectioin">
-        <h3 class="hero-title">Posted on startup</h3>
-        <h2 class="hero-title">
+      <section class="startup-section">
+        <h3 class="startup-subtitle">Posted on <span class="startup-span">startup</span></h3>
+        <h2 class="startup-title">
           Step-by-step guide to choosing great font pairs
         </h2>
-        <p class="hero-text">By James West | May 23, 2022</p>
-        <p class="hero-text">
+        <p class="startup-text"> <span class="startup-name">By James West</span> | May 23, 2022</p>
+        <p class="startup-text">
           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
           dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
           proident.
         </p>
-        <button class="hero-button" type="button">Read More</button>
+        <button class="startup-button" type="button">Read More</button>
       </section>
       <section class="post-section">
         <article>
+          <h2 class="post-title">Featured Post</h2>
           <img src="./image/post-haus.jpg" alt="post-haus" />
-          <p>By John Doe l May 23, 2022</p>
-          <h2>
+          <p class="post-date">By John Doe l May 23, 2022</p>
+          <h2 class="post-info">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
             doloremque nisi ipsum quas maiores explicabo assumenda dolores.
             Molestias, odio, ducimus neque accusamus modi quaerat, nam sunt
             blanditiis vel repellendus consectetur!
           </h2>
-          <p>
+          <p class="post-text">
             Duis aute irure dolor in reprehenderit in voluptate velit esse
             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
             cupidatat non proident.
@@ -119,7 +126,7 @@
           <ul class="post-list">
             <li class="post-text">
               <article class="post-article">
-                <p class="post-text">By John Deo l Aug 23, 2021</p>
+                <p class="post-date">By John Deo l Aug 23, 2021</p>
                 <h3 class="post-subtitle">
                   8 Figma design systems that you can download for free today.
                 </h3>
@@ -127,7 +134,7 @@
             </li>
             <li class="post-text">
               <article class="post-article">
-                <p class="post-text">By John Deo l Aug 23, 2021</p>
+                <p class="post-date">By John Deo l Aug 23, 2021</p>
                 <h3 class="post-subtitle">
                   8 Figma design systems that you can download for free today.
                 </h3>
@@ -135,7 +142,7 @@
             </li>
             <li class="post-text">
               <article class="post-article">
-                <p class="post-text">By John Deo l Aug 23, 2021</p>
+                <p class="post-date">By John Deo l Aug 23, 2021</p>
                 <h3 class="post-subtitle">
                   8 Figma design systems that you can download for free today.
                 </h3>
@@ -143,7 +150,7 @@
             </li>
             <li class="post-text">
               <article class="post-article">
-                <p class="post-text">By John Deo l Aug 23, 2021</p>
+                <p class="post-date">By John Deo l Aug 23, 2021</p>
                 <h3 class="post-subtitle">
                   8 Figma design systems that you can download for free today.
                 </h3>
@@ -166,15 +173,16 @@
         <button class="info-button" type="button">Read More</button>
 
         <h3 class="info-subtitle">Our mision</h3>
-        <h2 class="info-title">
+        <h2 class="info-creating">
           Creating valuable content for creatives all around the world
         </h2>
-        <p class="info-button">
+        <p class="info-subinfo">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
           cupiditate! Quod sunt adipisci qui nesciunt. Sequi laudantium fuga
           maiores eligendi numquam iste corrupti iusto aliquid, minus animi,
           laborum minima quam!
         </p>
+        <a class="info-link" href="">Read more</a>
       </section>
       <section class="plan-section">
         <h2 class="plan-title">Choose A Catagory</h2>
@@ -182,7 +190,7 @@
           <li class="plan-item">
             <article>
               <img src="./image/plan-icon1.png" alt="icon1" />
-              <h2>Business</h2>
+              <h2 class="plan-subtitle">Business</h2>
               <p class="plan-text">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
               </p>
@@ -191,7 +199,7 @@
           <li class="plan-item">
             <article>
               <img src="./image/plan-icon2.png" alt="icon2" />
-              <h2 class="plan-title">Startup</h2>
+              <h2 class="plan-subtitle">Startup</h2>
               <p class="plan-text">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
               </p>
@@ -200,7 +208,7 @@
           <li class="plan-item">
             <article>
               <img src="./image/plan-icon3.png" alt="icon3" />
-              <h2 class="plan-title">Economy</h2>
+              <h2 class="plan-subtitle">Economy</h2>
               <p class="plan-text">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
               </p>
@@ -209,7 +217,7 @@
           <li class="plan-item">
             <article>
               <img src="./image/plan-icon4.png" alt="icon4" />
-              <h2 class="plan-title">Technology</h2>
+              <h2 class="plan-subtitle">Technology</h2>
               <p class="plan-text">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
               </p>
@@ -218,8 +226,8 @@
         </ul>
       </section>
       <section class="started-section">
-        <h3 class="sterted-title">Why we started</h3>
-        <h2 class="started-title">
+        <h3 class="started-title">Why we started</h3>
+        <h2 class="started-subtitle">
           It started out as a simple idea and evolved into our passion
         </h2>
         <p class="started-text">
@@ -375,7 +383,7 @@
       <section class="article-section">
         <article>
           <p class="article-text">TESTIMONIALS</p>
-          <h2>What people say about our blog</h2>
+          <h2 class="article-title">What people say about our blog</h2>
           <p class="article-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor.
@@ -386,7 +394,7 @@
           </p>
 
           <img src="" alt="" />
-          <h2>Jonathan Vallem</h2>
+          <h2 class="article-title">Jonathan Vallem</h2>
           <p class="article-text">New york, USA</p>
           <button type="button"></button>
           <button type="button"></button>
@@ -423,29 +431,47 @@
         </li>
       </ul>
       <article class="footer-article">
-        <h2 class="footer-article">
+        <h2 class="footer-title">
           Subscribe to our news letter to get latest updates and news
         </h2>
         <form class="footer-form">
-          <input class="footer-input" type="text" placeholder="Enter Your Email" />
+          <input
+            class="footer-input"
+            type="text"
+            placeholder="Enter Your Email"
+          />
           <button class="footer-button" type="submit">Subscribe</button>
         </form>
       </article>
       <address class="footer-address">Finstreet 118 2561 Fintown</address>
-      <a class="footer-link" href=" mailto:Hello@finsweet.com">Hello@finsweet.com </a>
+      <a class="footer-link" href=" mailto:Hello@finsweet.com"
+        >Hello@finsweet.com
+      </a>
       <a class="footer-link" href="tel:02079932905">02079932905</a>
       <ul class="footer-list">
-        <li class="footer-item"> 
-          <img class="footer-photo" src="./image/authors-facebook.png" alt="facebook">
-        </li>
-        <li class="footer-item"> 
-          <img class="footer-photo" src="./image/authors-twitter.png" alt="twitter">
+        <li class="footer-item">
+          <img
+            class="footer-photo"
+            src="./image/authors-facebook.png"
+            alt="facebook"
+          />
         </li>
         <li class="footer-item">
-           <img class="footer-photo" src="./image/authors-instagram.png" alt="instagrame">
+          <img
+            class="footer-photo"
+            src="./image/authors-twitter.png"
+            alt="twitter"
+          />
         </li>
         <li class="footer-item">
-           <img class="footer-photo" src="./image/authors-in.png" alt="in">
+          <img
+            class="footer-photo"
+            src="./image/authors-instagram.png"
+            alt="instagrame"
+          />
+        </li>
+        <li class="footer-item">
+          <img class="footer-photo" src="./image/authors-in.png" alt="in" />
         </li>
       </ul>
     </footer>
