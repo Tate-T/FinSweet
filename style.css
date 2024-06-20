@@ -17,6 +17,12 @@
 padding-left: 16px;
 padding-right: 16px;
 }
+.box{
+  display: flex;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  align-items: center;
+}
 .btn {
   color: var(--aczent-color);
   font-family: Sen;
@@ -26,7 +32,9 @@ padding-right: 16px;
   line-height: 24px;
   background: var(--btn, #ffd050);
 }
-
+.header-logo{
+  margin-right: auto;
+}
 .header-section {
   background-color:var(--aczent-color);
 }
@@ -38,9 +46,23 @@ padding-right: 16px;
   line-height: 28px;
   
 }
-
+.header-list{
+  display: flex;
+  gap: 24px;
+  margin-right: 32px;
+  outline: solid green;
+  align-items: center;
+}
+.header-button{
+  padding-top:16px;
+  padding-bottom:16px ;
+  padding-right:48px ;
+  padding-left:48px ;
+  background-color: var(--adishinal-text);
+}
 .startup-section {
   background-color: var(--adishinal-text);
+  background-image: url();
 }
 .startup-subtitle {
   color: var(--adishinal-text, #fff);
