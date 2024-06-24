@@ -1,23 +1,23 @@
 :root {
   --aczent-color: #232536;
-  --btn: #FFD050;
-  --text-color: #6D6E76;
-  --adishinal-text: #FFF;
-  --link-color: #592EA9 ;
+  --btn: #ffd050;
+  --text-color: #6d6e76;
+  --adishinal-text: #fff;
+  --link-color: #592ea9;
 }
-.body{
+.body {
   font-family: Inter;
 }
-.container{
+.container {
   max-width: 1312px;
   width: 100%;
   outline: solid red;
   margin-left: auto;
   margin-right: auto;
-padding-left: 16px;
-padding-right: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
-.box{
+.box {
   display: flex;
   padding-top: 12px;
   padding-bottom: 12px;
@@ -32,11 +32,11 @@ padding-right: 16px;
   line-height: 24px;
   background: var(--btn, #ffd050);
 }
-.header-logo{
+.header-logo {
   margin-right: auto;
 }
 .header-section {
-  background-color:var(--aczent-color);
+  background-color: var(--aczent-color);
 }
 
 .header-link {
@@ -44,36 +44,43 @@ padding-right: 16px;
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
-  
 }
-.header-list{
+.header-list {
   display: flex;
   gap: 24px;
   margin-right: 32px;
   outline: solid green;
   align-items: center;
 }
-.header-button{
-  padding-top:16px;
-  padding-bottom:16px ;
-  padding-right:48px ;
-  padding-left:48px ;
+.header-button {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-right: 48px;
+  padding-left: 48px;
   background-color: var(--adishinal-text);
 }
 .startup-section {
   background-color: var(--adishinal-text);
-  background-image: url();
+  background-image: url(./image/sturtup.png);
+  height: 720px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 128px;
 }
 .startup-subtitle {
   color: var(--adishinal-text, #fff);
   font-size: 16px;
   font-weight: 500;
-  line-height: 20px; 
+  line-height: 20px;
   letter-spacing: 3px;
   text-transform: uppercase;
+  margin-bottom: 24px;
+}
+.startup-title {
+  width: 803px;
 }
 .startup-span {
-  color:  var(--adishinal-text, #fff);
+  color: var(--adishinal-text, #fff);
   font-size: 16px;
   font-weight: 900;
   line-height: 20px;
@@ -87,25 +94,42 @@ padding-right: 16px;
   line-height: 28px;
 }
 .startup-title {
-  color:  var(--adishinal-text, #fff);
+  color: var(--adishinal-text, #fff);
   font-family: Sen;
   font-size: 56px;
   font-weight: 700;
-  line-height: 64px; 
+  line-height: 64px;
   letter-spacing: -2px;
+  margin-bottom: 24px;
 }
 .startup-text {
-  color:  var(--adishinal-text, #fff);
+  color: var(--adishinal-text, #fff);
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
+  margin-bottom: 16px;
+}
+.startup-subtext {
+  color: var(--adishinal-text);
+  max-width: 599px;
+  margin-bottom: 48px;
+}
+.startup-button {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-right: 48px;
+  padding-left: 48px;
+}
+.post-container {
+  display: flex;
+
 }
 .post-info {
-  color:c;
+  color: c;
   font-family: Sen;
   font-size: 28px;
   font-weight: 700;
-  line-height: 40px; 
+  line-height: 40px;
   letter-spacing: -1px;
 }
 .post-title {
@@ -113,7 +137,7 @@ padding-right: 16px;
   font-family: Sen;
   font-size: 36px;
   font-weight: 700;
-  line-height: 48px; 
+  line-height: 48px;
   letter-spacing: -2px;
 }
 .post-subtitle {
@@ -127,13 +151,15 @@ padding-right: 16px;
   color: var(--text-color);
   font-size: 14px;
   font-weight: 500;
-  line-height: 20px; 
+  line-height: 20px;
 }
 .post-text {
   color: var(--text-color);
   font-size: 16px;
   font-weight: 400;
-  line-height: 28px; 
+  line-height: 28px;
+}
+.info-box {
 }
 .info-subtitle {
   color: var(--aczent-color);
@@ -156,7 +182,7 @@ padding-right: 16px;
   font-family: Sen;
   font-size: 28px;
   font-weight: 700;
-  line-height: 40px; 
+  line-height: 40px;
   letter-spacing: -1px;
 }
 .info-text {
@@ -177,7 +203,7 @@ padding-right: 16px;
   font-family: Sen;
   font-size: 18px;
   font-weight: 700;
-  line-height: 32px;  
+  line-height: 32px;
 }
 .plan-title {
   color: var(--aczent-color);
@@ -214,7 +240,7 @@ padding-right: 16px;
   font-family: Sen;
   font-size: 48px;
   font-weight: 700;
-  line-height: 64px;  
+  line-height: 64px;
   letter-spacing: -2px;
 }
 .started-text {
@@ -224,7 +250,7 @@ padding-right: 16px;
   line-height: 28px;
 }
 .authors-title {
-  color:var(--aczent-color);
+  color: var(--aczent-color);
   font-family: Sen;
   font-size: 36px;
   font-weight: 700;
@@ -238,12 +264,30 @@ padding-right: 16px;
   font-weight: 400;
   line-height: 20px;
 }
+.logo-box {
+  display: flex;
+}
+
 .logo-text {
   color: var(--text-color);
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
 }
+.logo-subtext {
+  color: var(--text-color);
+  font-family: Sen;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  margin-right: 86px;
+}
+.logo-list {
+  display: flex;
+  gap: 73px;
+}
+
 .article-title {
   color: var(--aczent-color);
   font-family: Sen;
@@ -259,6 +303,10 @@ padding-right: 16px;
   font-weight: 700;
   line-height: 32px;
 }
+
+.join-box {
+  height: 512px;
+}
 .join-title {
   color: var(--aczent-color);
   text-align: center;
@@ -267,6 +315,11 @@ padding-right: 16px;
   font-weight: 700;
   line-height: 48px;
   letter-spacing: -2px;
+  padding-top: 128px;
+  margin-bottom: 24px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 414px;
 }
 .join-text {
   color: var(--text-color);
@@ -274,13 +327,25 @@ padding-right: 16px;
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
+  margin-bottom: 24px;
+  width: 405px;
+  margin-right: auto;
+  margin-left: auto;
 }
-
+.join-button {
+  display: block;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 48px;
+  padding-right: 48px;
+  margin-right: auto;
+  margin-left: auto;
+}
 .footer-section {
-  background-color:var(--aczent-color);
+  background-color: var(--aczent-color);
 }
 .footer-link {
-  color:  var(--adishinal-text, #fff);
+  color: var(--adishinal-text, #fff);
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -294,7 +359,7 @@ padding-right: 16px;
   letter-spacing: -2px;
 }
 .footer-address {
-  color:  var(--adishinal-text, #fff);
+  color: var(--adishinal-text, #fff);
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -302,7 +367,7 @@ padding-right: 16px;
 
 /* blog-html */
 .header-subbutton {
-  background:  var(--adishinal-text, #fff);
+  background: var(--adishinal-text, #fff);
 }
 .hero-subtitle {
   color: var(--aczent-color);
@@ -364,13 +429,13 @@ padding-right: 16px;
   letter-spacing: -2px;
 }
 .pasts-text {
-  color:var(--text-color);
+  color: var(--text-color);
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
 }
 .pasts-button {
-  color:  var(--aczent-color);
+  color: var(--aczent-color);
   text-align: center;
   font-family: Sen;
   font-size: 28px;
