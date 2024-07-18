@@ -307,11 +307,16 @@
       </section>
       <section class="authors-section">
         <div class="container">
-          <h2 class="authors-title">List of Authors</h2>
-          <ul>
-            <li>
+          <h2 class="authors-subtitle">List of Authors</h2>
+
+          <ul class="authors-cardlist">
+            <li class="authors-card">
               <article class="authors-article">
-                <img src="./image/authors1.png" alt="authors1" />
+                <img
+                  class="authors-subphoto"
+                  src="./image/authors1.png"
+                  alt="authors1"
+                />
                 <h2 class="authors-title">Floyd Miles</h2>
                 <p class="authors-text">Content Writer @Company</p>
                 <ul class="authors-list">
@@ -338,7 +343,7 @@
                   </li>
                   <li class="authors-item">
                     <img
-                      class="authors-subphoto"
+                      class="authors-photo"
                       src="./image/authors-in.png"
                       alt="in"
                     />
@@ -346,10 +351,10 @@
                 </ul>
               </article>
             </li>
-            <li>
+            <li class="authors-card">
               <article class="authors-article">
                 <img
-                  class="authors-photo"
+                  class="authors-subphoto"
                   src="./image/authors2.png"
                   alt="authors2"
                 />
@@ -379,7 +384,7 @@
                   </li>
                   <li class="authors-item">
                     <img
-                      class="authors-subphoto"
+                      class="authors-photo"
                       src="./image/authors-in.png"
                       alt="in"
                     />
@@ -388,10 +393,10 @@
               </article>
             </li>
 
-            <li>
+            <li class="authors-card">
               <article class="authors-article">
                 <img
-                  class="authors-photo"
+                  class="authors-subphoto"
                   src="./image/authors3.png"
                   alt="authors3"
                 />
@@ -421,7 +426,7 @@
                   </li>
                   <li class="authors-item">
                     <img
-                      class="authors-subphoto"
+                      class="authors-photo"
                       src="./image/authors-in.png"
                       alt="in"
                     />
@@ -430,10 +435,10 @@
               </article>
             </li>
 
-            <li>
+            <li class="authors-card">
               <article class="authors-article">
                 <img
-                  class="authors-photo"
+                  class="authors-subphoto"
                   src="./image/authors4.png"
                   alt="authors4"
                 />
@@ -463,7 +468,7 @@
                   </li>
                   <li class="authors-item">
                     <img
-                      class="authors-subphoto"
+                      class="authors-photo"
                       src="./image/authors-in.png"
                       alt="in"
                     />
@@ -509,6 +514,9 @@
               eiusmod tempor.
             </p>
           </article>
+          <div class="article-line">
+
+          </div>
           <article class="article-subarticle">
             <p class="article-subtext">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -541,27 +549,29 @@
       </section>
     </main>
     <footer class="footer-section">
-      <div class="container">
-        <a class="footer-link" href="">
-          <img class="footer-photo" src="./image/Logo.png" alt="logo" />
-        </a>
-        <ul class="footer-list">
-          <li class="footer-item">
-            <a class="footer-link" href="./index.html">Home</a>
-          </li>
-          <li class="footer-item">
-            <a class="footer-link" href="./blog.html">Blog</a>
-          </li>
-          <li class="footer-item">
-            <a class="footer-link" href="">About us</a>
-          </li>
-          <li class="footer-item">
-            <a class="footer-link" href="">Contact us</a>
-          </li>
-          <li class="footer-item">
-            <a class="footer-link" href="">Privacy Policy</a>
-          </li>
-        </ul>
+      <div class="container footer-subcontainer">
+        <div class="footer-subbox">
+          <a class="footer-link" href="">
+            <img class="footer-subphoto" src="./image/Logo.png" alt="logo" />
+          </a>
+          <ul class="footer-list">
+            <li class="footer-item">
+              <a class="footer-link" href="./index.html">Home</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="./blog.html">Blog</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="">About us</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="">Contact us</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="">Privacy Policy</a>
+            </li>
+          </ul>
+        </div>
         <article class="footer-article">
           <h2 class="footer-title">
             Subscribe to our news letter to get latest updates and news
@@ -577,37 +587,42 @@
             </button>
           </form>
         </article>
-        <address class="footer-address">Finstreet 118 2561 Fintown</address>
-        <a class="footer-link" href=" mailto:Hello@finsweet.com"
-          >Hello@finsweet.com
-        </a>
-        <a class="footer-link" href="tel:02079932905">02079932905</a>
-        <ul class="footer-list">
-          <li class="footer-item">
-            <img
-              class="footer-photo"
-              src="./image/authors-facebook.png"
-              alt="facebook"
-            />
-          </li>
-          <li class="footer-item">
-            <img
-              class="footer-photo"
-              src="./image/authors-twitter.png"
-              alt="twitter"
-            />
-          </li>
-          <li class="footer-item">
-            <img
-              class="footer-photo"
-              src="./image/authors-instagram.png"
-              alt="instagrame"
-            />
-          </li>
-          <li class="footer-item">
-            <img class="footer-photo" src="./image/authors-in.png" alt="in" />
-          </li>
-        </ul>
+        <div class="footer-wraper">
+          <div class="footer-contact">
+            <address class="footer-address">Finstreet 118 2561 Fintown</address>
+            <a class="footer-link" href=" mailto:Hello@finsweet.com"
+              >Hello@finsweet.com
+            </a>
+            <a class="footer-link" href="tel:02079932905">02079932905</a>
+          </div>
+
+          <ul class="footer-sublist">
+            <li class="footer-item">
+              <img
+                class="footer-photo"
+                src="./image/authors-facebook.png"
+                alt="facebook"
+              />
+            </li>
+            <li class="footer-item">
+              <img
+                class="footer-photo"
+                src="./image/authors-twitter.png"
+                alt="twitter"
+              />
+            </li>
+            <li class="footer-item">
+              <img
+                class="footer-photo"
+                src="./image/authors-instagram.png"
+                alt="instagrame"
+              />
+            </li>
+            <li class="footer-item">
+              <img class="footer-photo" src="./image/authors-in.png" alt="in" />
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
