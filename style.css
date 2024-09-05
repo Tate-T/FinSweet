@@ -476,7 +476,7 @@ height: 16px;
   padding-bottom: 96px;
 }
 .logo-box {
-  display: flex;
+
 }
 
 .logo-text {
@@ -497,6 +497,10 @@ height: 16px;
 .logo-list {
   display: flex;
   gap: 73px;
+}
+.logo-icon{
+  width: 135px;
+height: 32px;
 }
 .article-section {
   background-color: #fbf6ea;
