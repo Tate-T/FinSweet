@@ -420,6 +420,7 @@
 .authors-cardlist {
   display: flex;
   gap: 32px;
+  justify-content: center;
 }
 .authors-list {
   display: flex;
@@ -497,10 +498,12 @@ height: 16px;
 .logo-list {
   display: flex;
   gap: 73px;
+justify-content: space-between;
 }
 .logo-icon{
   width: 135px;
 height: 32px;
+fill: #282938;
 }
 .article-section {
   background-color: #fbf6ea;
@@ -668,8 +671,10 @@ margin-left: 96px;
 }
 .footer-item {
 }
-.footer-photo {
-  background-color: #6d6e76;
+.footer-icon{
+width: 16px;
+height: 16px;
+fill: #6D6E76;
 }
 /* blog-html */
 .header-section {
