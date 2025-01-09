@@ -1,0 +1,181 @@
+:root {
+  --title-color: #232536;
+  --text-color: #6d6e76;
+  --subtitle-color: #592ea9;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: var(--title-color);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.posts-subtitle {
+  font-family: Sen;
+}
+
+.header {
+  background: #232536;
+}
+
+.header-page {
+  color: #fff;
+  font-weight: 400;
+}
+
+.header-button {
+  font-family: Sen;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.featured-subtitle {
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.featured-title {
+  font-family: Sen;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+}
+
+.featured-text {
+  color: #4c4c4c;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.featured-name {
+  color: var(--subtitle-color);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.featured-info {
+  color: var(--text-color);
+  font-weight: 400;
+}
+
+.featured-button {
+  font-family: Sen;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.posts-title {
+  font-family: Sen;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -2px;
+}
+
+.posts-text {
+  color: var(--subtitle-color);
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.posts-subtitle {
+  font-family: Sen;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+}
+
+.posts-info {
+  color: var(--text-color);
+  font-weight: 400;
+}
+
+.posts-prev {
+  color: var(--text-color);
+  text-align: center;
+  font-family: Sen;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.posts-next {
+  text-align: center;
+  font-family: Sen;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: -1px;
+}
+
+.categories-title {
+  font-family: Sen;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+}
+
+.categories-subtitle {
+  font-family: Sen;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: -1px;
+}
+
+.categories-text {
+  color: var(--text-color);
+  font-weight: 400;
+}
+
+.join-title {
+  text-align: center;
+  font-family: Sen;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+}
+
+.join-text {
+  color: var(--text-color);
+  text-align: center;
+  font-weight: 400;
+}
+
+.join-button {
+  font-family: Sen;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.footer {
+  background: #232536;
+}
+
+.footer-page {
+  color: #fff;
+  font-weight: 400;
+}
+
+.footer-title {
+  color: #fff;
+  font-family: Sen;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+}
+
+.footer-button {
+  font-family: Sen;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.footer-info {
+  color: #fff;
+  font-weight: 400;
+}
