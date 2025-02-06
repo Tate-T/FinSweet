@@ -4,6 +4,17 @@
   --subtitle-color: #592ea9;
 }
 
+
+.container {
+  outline: solid red;
+  width: 1312px;
+  padding: 0px 16px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
 /* Скинемо вбудовані стилі */
 
 h1, h2, h3, h4, h5, h6, p {
@@ -44,6 +55,8 @@ body {
 }
 
 .header {
+  padding-top: 12px;
+  padding-bottom: 12px;
   background: #232536;
 }
 
@@ -57,6 +70,12 @@ body {
   font-size: 18px;
   line-height: 24px;
 }
+
+.featured {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
 
 .featured-subtitle {
   font-weight: 500;
@@ -95,6 +114,11 @@ body {
   font-family: Sen;
   font-size: 18px;
   line-height: 24px;
+}
+
+.posts {
+  padding-top: 73px;
+  padding-bottom: 67px;
 }
 
 .posts-title {
@@ -140,6 +164,10 @@ body {
   letter-spacing: -1px;
 }
 
+.categories {
+  padding-bottom: 128px;
+}
+
 .categories-title {
   font-family: Sen;
   font-size: 36px;
@@ -157,6 +185,10 @@ body {
 .categories-text {
   color: var(--text-color);
   font-weight: 400;
+}
+
+.join {
+padding-bottom: 120px;
 }
 
 .join-title {
@@ -181,6 +213,8 @@ body {
 
 .footer {
   background: #232536;
+  padding-top: 59px;
+  padding-bottom: 56px;
 }
 
 .footer-page {

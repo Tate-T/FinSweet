@@ -1,204 +1,274 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sen:wght@400..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./posts.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sen:wght@400..800&display=swap"
-    rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="./posts.css">
-</head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <a href="./posts.html" class="header-logo">
+          <img src="./image/logo.webp" alt="logo" class="header-photo" />
+        </a>
+        <nav class="header-navigation">
+          <ul class="header-list">
+            <li class="header-item">
+              <a href="./index.html" class="header-page">Home</a>
+            </li>
+            <li class="header-item">
+              <a href="./blog.html" class="header-page">Blog</a>
+            </li>
+            <li class="header-item">
+              <a href="./posts.html" class="header-page">About Us</a>
+            </li>
+            <li class="header-item">
+              <a href="" class="header-page">Contact us</a>
+            </li>
+          </ul>
+        </nav>
+        <button type="button" class="header-button">Subscribe</button>
+      </div>
+    </header>
 
-<body>
-  <header class="header">
-    <a href="./posts.html" class="header-logo">
-      <img src="./image/logo.webp" alt="logo" class="header-photo" />
-    </a>
-    <nav class="header-navigation">
-      <ul class="header-list">
-        <li class="header-item">
-          <a href="./index.html" class="header-page">Home</a>
-        </li>
-        <li class="header-item">
-          <a href="./blog.html" class="header-page">Blog</a>
-        </li>
-        <li class="header-item">
-          <a href="./posts.html" class="header-page">About Us</a>
-        </li>
-        <li class="header-item">
-          <a href="" class="header-page">Contact us</a>
-        </li>
-      </ul>
-    </nav>
-    <button type="button" class="header-button">Subscribe</button>
-  </header>
-  <main>
-    <!-- featured Post section -->
-    <section class="featured">
-      <article class="featured-article">
-        <h2 class="featured-subtitle">Featured Post</h2>
-        <h1 class="featured-title">Step-by-step guide to choosing great font pairs</h1>
-        <p class="featured-text">
-          <span>By</span>
-          <cite class="featured-name">John Doe</cite>
-          <span>l</span>
-          <time datetime="2022-05-23">May 23, 2022</time>
-        </p>
-        <p class="featured-info">
-          Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-          cupidatat non proident.
-        </p>
-        <button type="button" class="featured-button">Read More ></button>
-        <img src="./image/fecherd-photo.jpg" alt="man" class="featured-photo" />
-      </article>
-    </section>
-    <!-- Posts section -->
-    <section class="posts">
-      <h2 class="posts-title">All posts</h2>
-      <ul class="posts-list">
-        <li class="posts-item">
-          <img src="./image/posts-posts1.webp" alt="Two woman" class="posts-photo" />
-          <p class="posts-text">Startup</p>
-          <h3 class="posts-subtitle">Design tips for designers that cover everything you need</h3>
-          <p class="posts-info">
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident.
+    <main>
+      <!-- featured Post section -->
+      <section class="featured">
+        <div class="container">
+          <article class="featured-article">
+            <h2 class="featured-subtitle">Featured Post</h2>
+            <h1 class="featured-title">
+              Step-by-step guide to choosing great font pairs
+            </h1>
+            <p class="featured-text">
+              <span>By</span>
+              <cite class="featured-name">John Doe</cite>
+              <span>l</span>
+              <time datetime="2022-05-23">May 23, 2022</time>
+            </p>
+            <p class="featured-info">
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+              cupidatat non proident.
+            </p>
+            <button type="button" class="featured-button">Read More ></button>
+            <img
+              src="./image/fecherd-photo.jpg"
+              alt="man"
+              class="featured-photo"
+            />
+          </article>
+        </div>
+      </section>
+      <!-- Posts section -->
+      <section class="posts">
+        <div class="container">
+          <h2 class="posts-title">All posts</h2>
+          <ul class="posts-list">
+            <li class="posts-item">
+              <img
+                src="./image/posts-posts1.webp"
+                alt="Two woman"
+                class="posts-photo"
+              />
+              <p class="posts-text">Startup</p>
+              <h3 class="posts-subtitle">
+                Design tips for designers that cover everything you need
+              </h3>
+              <p class="posts-info">
+                Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident.
+              </p>
+            </li>
+            <li class="posts-item">
+              <img
+                src="./image/posts-posts2.webp"
+                alt="tablet"
+                class="posts-photo"
+              />
+              <p class="posts-text">BUSINESS</p>
+              <h3 class="posts-subtitle">
+                How to build rapport with your web design clients
+              </h3>
+              <p class="posts-info">
+                Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident.
+              </p>
+            </li>
+            <li class="posts-item">
+              <img
+                src="./image/posts-posts3.webp"
+                alt="Two pouple"
+                class="posts-photo"
+              />
+              <p class="posts-text">Startup</p>
+              <h3 class="posts-subtitle">
+                Logo design trends to avoid in 2022
+              </h3>
+              <p class="posts-info">
+                Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident.
+              </p>
+            </li>
+            <li class="posts-item">
+              <img src="./image/posts-posts4.webp" alt="" class="posts-photo" />
+              <p class="posts-text">TECHNOLOGY</p>
+              <h3 class="posts-subtitle">
+                8 Figma design systems you can download for free today
+              </h3>
+              <p class="posts-info">
+                Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident.
+              </p>
+            </li>
+            <li class="posts-item">
+              <img
+                src="./image/posts-posts5.webp"
+                alt="woman two"
+                class="posts-photo"
+              />
+              <p class="posts-text">ECONOMY</p>
+              <h3 class="posts-subtitle">
+                Font sizes in UI design: The complete guide to follow
+              </h3>
+              <p class="posts-info">
+                Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident.
+              </p>
+            </li>
+          </ul>
+          <button type="button" class="posts-prev">Prev</button>
+          <button type="button" class="posts-next">Next</button>
+        </div>
+      </section>
+      <!-- All Categories section -->
+      <section class="categories">
+        <div class="container">
+          <h2 class="categories-title">All Categories</h2>
+          <ul class="categories-list">
+            <li class="categories-item">
+              <img
+                src="./image/categories-houseicon.webp"
+                alt="house icon"
+                class="categories-photo"
+              />
+              <h3 class="categories-subtitle">Business</h3>
+              <p class="categories-text">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+              </p>
+            </li>
+            <li class="categories-item">
+              <img
+                src="./image/categories-rocket.webp"
+                alt="rocket"
+                class="categories-photo"
+              />
+              <h3 class="categories-subtitle">Startup</h3>
+              <p class="categories-text">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+              </p>
+            </li>
+            <li class="categories-item">
+              <img
+                src="./image/categories-economy.webp"
+                alt="economy"
+                class="categories-photo"
+              />
+              <h3 class="categories-subtitle">Economy</h3>
+              <p class="categories-text">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+              </p>
+            </li>
+            <li class="categories-item">
+              <img
+                src="./image/categories-cyborgicon.webp"
+                alt="cyber"
+                class="categories-photo"
+              />
+              <h3 class="categories-subtitle">Technology</h3>
+              <p class="categories-text">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- Join section -->
+      <section class="join">
+        <div class="container">
+          <h2 class="join-title">Join our team to be a part of our story</h2>
+          <p class="join-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt.
           </p>
-        </li>
-        <li class="posts-item">
-          <img src="./image/posts-posts2.webp" alt="tablet" class="posts-photo" />
-          <p class="posts-text">BUSINESS</p>
-          <h3 class="posts-subtitle">How to build rapport with your web design clients</h3>
-          <p class="posts-info">
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident.
-          </p>
-        </li>
-        <li class="posts-item">
-          <img src="./image/posts-posts3.webp" alt="Two pouple" class="posts-photo" />
-          <p class="posts-text">Startup</p>
-          <h3 class="posts-subtitle">Logo design trends to avoid in 2022</h3>
-          <p class="posts-info">
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident.
-          </p>
-        </li>
-        <li class="posts-item">
-          <img src="./image/posts-posts4.webp" alt="" class="posts-photo" />
-          <p class="posts-text">TECHNOLOGY</p>
-          <h3 class="posts-subtitle">8 Figma design systems you can download for free today</h3>
-          <p class="posts-info">
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident.
-          </p>
-        </li>
-        <li class="posts-item">
-          <img src="./image/posts-posts5.webp" alt="woman two" class="posts-photo" />
-          <p class="posts-text">ECONOMY</p>
-          <h3 class="posts-subtitle">Font sizes in UI design: The complete guide to follow</h3>
-          <p class="posts-info">
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident.
-          </p>
-        </li>
-      </ul>
-      <button type="button" class="posts-prev">Prev</button>
-      <button type="button" class="posts-next">Next</button>
-    </section>
-    <!-- All Categories section -->
-    <section class="categories">
-      <h2 class="categories-title">All Categories</h2>
-      <ul class="categories-list">
-        <li class="categories-item">
-          <img src="./image/categories-houseicon.webp" alt="house icon" class="categories-photo" />
-          <h3 class="categories-subtitle">Business</h3>
-          <p class="categories-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-        </li>
-        <li class="categories-item">
-          <img src="./image/categories-rocket.webp" alt="rocket" class="categories-photo">
-          <h3 class="categories-subtitle">Startup</h3>
-          <p class="categories-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-        </li>
-        <li class="categories-item">
-          <img src="./image/categories-economy.webp" alt="economy" class="categories-photo">
-          <h3 class="categories-subtitle">Economy</h3>
-          <p class="categories-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-        </li>
-        <li class="categories-item">
-          <img src="./image/categories-cyborgicon.webp" alt="cyber" class="categories-photo">
-          <h3 class="categories-subtitle">Technology</h3>
-          <p class="categories-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-        </li>
-      </ul>
-    </section>
-    <!-- Join section -->
-    <section class="join">
-      <h2 class="join-title">Join our team to be a part of our story</h2>
-      <p class="join-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
-      </p>
-      <button type="button" class="join-button">Join Now</button>
-    </section>
-  </main>
-  <footer class="footer">
-    <img src="./image/logo.webp" alt="Logo" class="footer-logo">
-    <ul class="footer-list">
-      <li class="footer-item">
-        <a href="" class="footer-page">Home</a>
-      </li>
-      <li class="footer-item">
-        <a href="" class="footer-page">Blog</a>
-      </li>
-      <li class="footer-item">
-        <a href="" class="footer-page">About us</a>
-      </li>
-      <li class="footer-item">
-        <a href="" class="footer-page">Contact us</a>
-      </li>
-      <li class="footer-item">
-        <a href="" class="footer-page">Privacy Policy</a>
-      </li>
-    </ul>
-    <h2 class="footer-title">Subscribe to our news letter to get latest updates and news</h2>
-    <form class="footer-form">
-      <input type="email" class="footer-input">
-      <button type="submit" class="footer-button">Subscribe</button>
-    </form>
-    <p class="footer-info">Finstreet 118 2561 Fintown</p>
-    <p class="footer-info">Hello@finsweet.com 020 7993 2905</p>
-    <ul class="footer-socials">
-      <li class="footer-social">
-        <a href="" class="footer-link">
-          <img src="" alt="" class="footer-photo">
-        </a>
-      </li>
-      <li class="footer-social">
-        <a href="" class="footer-link"></a>
-        <img src="" alt="" class="footer-photo">
-        </a>
-      </li>
-      <li class="footer-social">
-        <a href="" class="footer-link">
-          <img src="" alt="" class="footer-photo">
-        </a>
-      </li>
-      <li class="footer-social">
-        <a href="" class="footer-link"></a>
-        <img src="" alt="" class="footer-photo">
-        </a>
-      </li>
-    </ul>
-  </footer>
-</body>
-
+          <button type="button" class="join-button">Join Now</button>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <img src="./image/logo.webp" alt="Logo" class="footer-logo" />
+        <ul class="footer-list">
+          <li class="footer-item">
+            <a href="" class="footer-page">Home</a>
+          </li>
+          <li class="footer-item">
+            <a href="" class="footer-page">Blog</a>
+          </li>
+          <li class="footer-item">
+            <a href="" class="footer-page">About us</a>
+          </li>
+          <li class="footer-item">
+            <a href="" class="footer-page">Contact us</a>
+          </li>
+          <li class="footer-item">
+            <a href="" class="footer-page">Privacy Policy</a>
+          </li>
+        </ul>
+        <h2 class="footer-title">
+          Subscribe to our news letter to get latest updates and news
+        </h2>
+        <form class="footer-form">
+          <input type="email" class="footer-input" />
+          <button type="submit" class="footer-button">Subscribe</button>
+        </form>
+        <p class="footer-info">Finstreet 118 2561 Fintown</p>
+        <p class="footer-info">Hello@finsweet.com 020 7993 2905</p>
+        <ul class="footer-socials">
+          <li class="footer-social">
+            <a href="" class="footer-link"> </a>
+          </li>
+          <li class="footer-social">
+            <a href="" class="footer-link"> </a>
+          </li>
+          <li class="footer-social">
+            <a href="" class="footer-link"> </a>
+          </li>
+          <li class="footer-social">
+            <a href="" class="footer-link"> </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>
