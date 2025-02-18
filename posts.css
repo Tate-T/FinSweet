@@ -4,7 +4,6 @@
   --subtitle-color: #592ea9;
 }
 
-
 .container {
   outline: solid red;
   width: 1312px;
@@ -13,18 +12,22 @@
   margin-left: auto;
 }
 
-
-
 /* Скинемо вбудовані стилі */
 
-h1, h2, h3, h4, h5, h6, p {
-  margin: 0
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
 
 ul {
   list-style: none;
-  padding: 0 ;
-  margin: 0 ;
+  padding: 0;
+  margin: 0;
 }
 
 a {
@@ -36,9 +39,6 @@ button {
   cursor: pointer;
   /* background-color: transparent; */
 }
-
-
-
 
 /* Задамо стилі згідно макету */
 
@@ -60,6 +60,19 @@ body {
   background: #232536;
 }
 
+.header-container {
+  display: flex;
+}
+
+.header-navigation {
+  margin-left: auto;
+}
+
+.header-list {
+  display: flex;
+  gap: 24px;
+}
+
 .header-page {
   color: #fff;
   font-weight: 400;
@@ -69,13 +82,24 @@ body {
   font-family: Sen;
   font-size: 18px;
   line-height: 24px;
+  margin-left: 32px;
 }
 
 .featured {
+  background: var(--Lavender, #f4f0f8);
   padding-top: 80px;
   padding-bottom: 80px;
 }
 
+.featured-container {
+  display: flex;
+  gap: 141px;
+}
+
+.featured-title {
+  margin-top: 20px;
+  margin-bottom: 16px;
+}
 
 .featured-subtitle {
   font-weight: 500;
@@ -96,6 +120,7 @@ body {
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
+  margin-bottom: 16px;
 }
 
 .featured-name {
@@ -114,6 +139,13 @@ body {
   font-family: Sen;
   font-size: 18px;
   line-height: 24px;
+  margin-top: 32px;
+  padding: 16px 48px;
+  display: inline-flex;
+  padding: 16px 48px;
+  align-items: flex-start;
+  gap: 12px;
+  background: var(--Yellow, #ffd050);
 }
 
 .posts {
@@ -126,6 +158,24 @@ body {
   font-size: 48px;
   line-height: 64px;
   letter-spacing: -2px;
+  margin-bottom: 93px;
+}
+
+.posts-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.posts-item {
+  outline: solid green;
+  display: flex;
+  gap: 32px;
+}
+
+.posts-box {
+
 }
 
 .posts-text {
@@ -134,6 +184,7 @@ body {
   line-height: 20px;
   letter-spacing: 3px;
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 .posts-subtitle {
@@ -141,6 +192,7 @@ body {
   font-size: 36px;
   line-height: 48px;
   letter-spacing: -2px;
+  margin-bottom: 16px;
 }
 
 .posts-info {
@@ -188,7 +240,7 @@ body {
 }
 
 .join {
-padding-bottom: 120px;
+  padding-bottom: 120px;
 }
 
 .join-title {
