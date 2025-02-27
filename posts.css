@@ -175,7 +175,6 @@ body {
 }
 
 .posts-box {
-
 }
 
 .posts-text {
@@ -216,6 +215,13 @@ body {
   letter-spacing: -1px;
 }
 
+.button-posts {
+  display: flex;
+  justify-content: center;
+  padding-top: 64px;
+  gap: 17px;
+}
+
 .categories {
   padding-bottom: 128px;
 }
@@ -227,16 +233,34 @@ body {
   letter-spacing: -2px;
 }
 
+.categories-list {
+  display: flex;
+  gap: 32px;
+}
+
+.categories-div {
+  border: solid;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border-radius: 3px ;
+  background-color: #FBF6EA ;
+}
+
 .categories-subtitle {
   font-family: Sen;
   font-size: 28px;
   line-height: 40px;
   letter-spacing: -1px;
+  padding-top: 16px;
 }
 
 .categories-text {
   color: var(--text-color);
   font-weight: 400;
+  padding-top: 4px;
 }
 
 .join {
@@ -261,6 +285,7 @@ body {
   font-family: Sen;
   font-size: 18px;
   line-height: 24px;
+  display: flex;
 }
 
 .footer {
