@@ -245,8 +245,8 @@ body {
   display: flex;
   justify-content: center;
   align-content: center;
-  border-radius: 3px ;
-  background-color: #FBF6EA ;
+  border-radius: 3px;
+  background-color: #fbf6ea;
 }
 
 .categories-subtitle {
@@ -267,18 +267,29 @@ body {
   padding-bottom: 120px;
 }
 
+.join-article {
+  max-width: 414px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .join-title {
+  display: flex;
   text-align: center;
   font-family: Sen;
   font-size: 36px;
   line-height: 48px;
   letter-spacing: -2px;
+  max-width: 414px;
+  justify-content: center;
 }
 
 .join-text {
   color: var(--text-color);
   text-align: center;
   font-weight: 400;
+  padding-bottom: 32px;
+  padding-top: 16px;
 }
 
 .join-button {
@@ -286,12 +297,49 @@ body {
   font-size: 18px;
   line-height: 24px;
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px 48px;
+  align-items: flex-start;
+  gap: 12px;
+  background-color: #ffd050;
 }
 
 .footer {
+  margin-left: auto;
+  margin-right: auto;
+
   background: #232536;
   padding-top: 59px;
   padding-bottom: 56px;
+}
+
+.footer-div {
+  display: flex;
+  padding-bottom: 54px;
+}
+
+.footer-div2 {
+  display: flex;
+  background-color: rgb(255, 255, 255, 0.5);
+  padding-right: 64px;
+}
+
+.footer-form {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  
+  
+}
+
+.footer-logo {
+  padding-right: 703px;
+  display: flex;
+}
+.footer-list {
+  display: flex;
+  gap: 24px;
 }
 
 .footer-page {
@@ -305,12 +353,31 @@ body {
   font-size: 36px;
   line-height: 48px;
   letter-spacing: -2px;
+  padding: 80px 64px 80px 64px;
+}
+
+.footer-input {
+  border: solid rgb(76, 76, 76, 0.5);
+  width: 323px;
+  height: 56px;
+  flex-shrink: 0;
+ 
+}
+.footer-text {
+  padding-top: 48px;
 }
 
 .footer-button {
   font-family: Sen;
   font-size: 18px;
   line-height: 24px;
+
+  align-items: center;
+  display: inline-flex;
+  padding: 16px 48px;
+  align-items: flex-start;
+  gap: 12px;
+  background-color: #ffd050;
 }
 
 .footer-info {
