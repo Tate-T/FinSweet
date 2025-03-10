@@ -169,7 +169,7 @@ body {
 }
 
 .posts-item {
-  outline: solid green;
+  
   display: flex;
   gap: 32px;
 }
@@ -236,6 +236,7 @@ body {
 .categories-list {
   display: flex;
   gap: 32px;
+  ;
 }
 
 .categories-div {
@@ -312,6 +313,9 @@ body {
   background: #232536;
   padding-top: 59px;
   padding-bottom: 56px;
+  display: flex;
+
+
 }
 
 .footer-div {
@@ -365,6 +369,7 @@ body {
 }
 .footer-text {
   padding-top: 48px;
+
 }
 
 .footer-button {
@@ -383,4 +388,15 @@ body {
 .footer-info {
   color: #fff;
   font-weight: 400;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 26.67px;
+  padding-top: 60px;
+  padding-left: 775px;
+}
+
+.footer-solid {
+  display: flex;
 }
