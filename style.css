@@ -67,7 +67,7 @@
 }
 .startup-section {
   background-color: var(--adishinal-text);
-  background-image: url(./image/sturtup.png);
+  background-image: url(./image/sturtup.webp);
   padding-bottom: 192px;
   background-repeat: no-repeat;
   background-position: center;
@@ -366,7 +366,7 @@
 .started-container {
   display: flex;
   justify-content: flex-end;
-  background-image: url(./image/started-photo.png);
+  background-image: url(./image/started-photo.webp);
   background-repeat: no-repeat;
   background-size: contain;
   padding-top: 121px;
