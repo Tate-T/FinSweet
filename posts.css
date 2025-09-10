@@ -5,7 +5,7 @@
 }
 
 .container {
-  outline: solid red;
+  /* outline: solid red; */
   width: 1312px;
   padding: 0px 16px;
   margin-right: auto;
@@ -240,13 +240,12 @@ body {
 }
 
 .categories-div {
-  border: solid;
+  border:#fbf6ea;;
   width: 48px;
   height: 48px;
   display: flex;
   justify-content: center;
   align-content: center;
-  border-radius: 3px;
   background-color: #fbf6ea;
 }
 
@@ -395,8 +394,27 @@ body {
   gap: 26.67px;
   padding-top: 60px;
   padding-left: 775px;
+  
 }
 
 .footer-solid {
   display: flex;
+}
+
+.footer-link {
+  width: 16px;
+  height: 16px;
+}
+
+.iconSVG {
+  width: 16px;
+  height: 16px;
+  fill: grey;
+}
+
+
+.categories-svg {
+  width: 48px;
+  height: 48px;
+  
 }
