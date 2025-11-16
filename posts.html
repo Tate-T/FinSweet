@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sen:wght@400..800&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
@@ -24,9 +25,9 @@
     <header class="header">
       <div class="container header-container">
         <a href="./posts.html" class="header-logo">
-          <img src="./image/logo.webp" alt="logo" class="header-photo" />
+          <img src="./image/logo.webp" alt="logo" class="header-photo" data-aos="fade-right" />
         </a>
-        <nav class="header-navigation">
+        <nav class="header-navigation" data-aos="fade-left" >
           <ul class="header-list">
             <li class="header-item">
               <a href="./index.html" class="header-page">Home</a>
@@ -51,27 +52,28 @@
       <section class="featured">
         <div class="container featured-container">
           <article class="featured-article">
-            <h2 class="featured-subtitle">Featured Post</h2>
-            <h1 class="featured-title">
+            <h2 class="featured-subtitle" data-aos="fade-right">Featured Post</h2>
+            <h1 class="featured-title" data-aos="fade-right">
               Step-by-step guide to choosing great font pairs
             </h1>
-            <p class="featured-text">
+            <p class="featured-text" data-aos="fade-right">
               <span>By</span>
               <cite class="featured-name">John Doe</cite>
               <span>l</span>
               <time datetime="2022-05-23">May 23, 2022</time>
             </p>
-            <p class="featured-info">
+            <p class="featured-info" data-aos="fade-right">
               Duis aute irure dolor in reprehenderit in voluptate velit esse
               cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
               cupidatat non proident.
             </p>
-            <button type="button" class="featured-button">Read More ></button>
+            <button type="button" class="featured-button" data-aos="fade-right">Read More ></button>
           </article>
           <img
             src="./image/fecherd-photo.webp"
             alt="man"
             class="featured-photo"
+            data-aos="fade-left"
           />
         </div>
       </section>
@@ -80,7 +82,7 @@
         <div class="container">
           <h2 class="posts-title">All posts</h2>
           <ul class="posts-list">
-            <li class="posts-item">
+            <li class="posts-item" data-aos="zoom-in">
               <img
                 src="./image/posts-posts1.webp"
                 alt="Two woman"
@@ -98,7 +100,7 @@
                 </p>
               </div>
             </li>
-            <li class="posts-item">
+            <li class="posts-item" data-aos="zoom-in">
               <img
                 src="./image/posts-posts2.webp"
                 alt="tablet"
@@ -116,7 +118,7 @@
                 </p>
               </div>
             </li>
-            <li class="posts-item">
+            <li class="posts-item" data-aos="zoom-in">
               <img
                 src="./image/posts-posts3.webp"
                 alt="Two pouple"
@@ -134,7 +136,7 @@
                 </p>
               </div>
             </li>
-            <li class="posts-item">
+            <li class="posts-item" data-aos="zoom-in">
               <img src="./image/posts-posts4.webp" alt="" class="posts-photo" />
               <div>
                 <p class="posts-text">TECHNOLOGY</p>
@@ -148,7 +150,7 @@
                 </p>
               </div>
             </li>
-            <li class="posts-item">
+            <li class="posts-item" data-aos="zoom-in">
               <img
                 src="./image/posts-posts5.webp"
                 alt="woman two"
@@ -181,7 +183,8 @@
       <section class="categories">
         <div class="container">
           <h2 class="categories-title">All Categories</h2>
-          <ul class="categories-list">
+          <ul class="categories-list" data-aos="fade-up"
+     data-aos-duration="3000">
             <li class="categories-item">
               <div class="categories-div">
                 <svg class="categories-svg">
@@ -237,7 +240,8 @@
       <!-- Join section -->
       <section class="join">
         <div class="container">
-          <article class="join-article">
+          <article class="join-article" data-aos="fade-up"
+     data-aos-duration="3000">
             <h2 class="join-title">Join our team to be a part of our story</h2>
             <p class="join-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -249,7 +253,8 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer" data-aos="fade-up"
+     data-aos-duration="400">
       <div class="container">
         <div class="footer-div">
           <img src="./image/logo.webp" alt="Logo" class="footer-logo" />
@@ -319,5 +324,10 @@
         </div>
       </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  AOS.init();
+</script>
   </body>
 </html>
